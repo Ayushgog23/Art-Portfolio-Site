@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<!--head-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>Ayush Gogne Art Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<!--body-->
+<body style="overflow-x:hidden;"data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+  <!-- Sidebar -->
+  <div class="w3-sidebar w3-black w3-bar-block" style="width:30%">
+    <nav class="navbar">
+      <h3 class="w3-bar-item" id="sidebartitle" >Ayush Gogne</h3>
+      <p id="sidebartext">Contemporary artist focused on geometric style and shape, based in the Greater Toronto Area.
+      </p>
+      
+      <!--categories-->
+      <a href="#selfportrait" class="w3-bar-item w3-button">Home</a>
+      <a href="#aboutbreak" class="w3-bar-item w3-button">About</a>
+      <a href="#gallerybreak" class="w3-bar-item w3-button">Gallery</a>
+      <a href="#projectbreak" class="w3-bar-item w3-button">Projects</a>
+      <a href="#awardsbreak" class="w3-bar-item w3-button">Awards</a>
+      <a href="#contactbreak" class="w3-bar-item w3-button">Contact</a>
+    </nav>
+  </div>
+  
+  <!-- Right Section Page Content -->
+  <div style="margin-left:20%;">
+    
+    <!--Home-->
+    <div id="Home">
+      <!--images-->
+      <img class="curved" id="selfportrait" style="position:relative; left:25%; top: 0%; width: 35%; height: 35%; " src="Ayushart/selfportrait.jpg">
+      <img class="curved" id="mepainting" style="position:relative; left:25%; top: 20vh;width: 35%; height: 35%; margin-left:5px;" src="Ayushart/mepainting.jpg">
+    </div>
+    <br>
+    <br id="aboutbreak">
+    
+    <!--About-->
+    <div id="About" style="position:relative; left:25.5%; top: 10vh;">
+      <!--image-->
+      <img class="curved" style=" width: 34.5%; height: 80%; margin-right:5px;" src="Ayushart/selfie.jpg">
+    <div id="aboutdiv">
+    <!--My Name-->
+    <h2 class="curvedtext">About Ayush</h2>
+      
+    <!--About Me text-->
+    <p id="aboutme">Ayush is a Canadian artist who uses a variety of mediums in his work, Colored pencil, acrylic, and digital media being his specialty. Each of his pieces may aim to share events and characteristics of his life, tell stories, and provoke a unique feeling inside the viewer by contrasting and differentiating from color, shape, and form found in the real world.
+
+Alongside his art, Ayush follows his path in the field of computer science, hoping to incorporate aspects of this field into his art in the future, and vice versa!
+    </div>
+</p>
+</div>
+    <br id=gallerybreak>
+    <br>
+    
+    <!--Gallery-->
+    <div style ="position: relative; top: 25vh;" id="Gallery">
+    <!--header-->
+      <h3 id="gallerytext"     class="curvedtext">Gallery</h3>
+    <br>
+    <br>
+    <!--initial pictures-->
+    <div id="clickpictures">
+      <button id="gallerybutton" onclick="animatedgallery()" style="position:relative; right: 5%; bottom: 10%;">Click for animated gallery!</button>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div style = "position:relative; right: 60%; top: 15%;">
+      <img class="curved imgs" id="img1" style="border: 5px solid white; z-index: 3;" src= "Ayushart/20230822_162011.jpg" onclick="leftrotate()" />
+      <img class="curved imgs" id="img2" style="border: 5px solid white; z-index: 2;"
+        src="Ayushart/20230822_162031.jpg" />
+      <img class="curved imgs" id="img3" style="border: 5px solid white; z-index: 1;"
+        src="Ayushart/20230822_162044.jpg" />
+      </div>
+</div>
+
+  <!--onclick pictures-->
+  <div id="animatedpictures" style = "display: none; position: relative; right: 40%;">
+   <img class="animatedpics"src="Ayushart/20230822_162011.jpg">
+   <img class="animatedpics "src="Ayushart/20230822_162031.jpg" >
+   <img class="animatedpics"src="Ayushart/20230822_162044.jpg">
+   <img class="animatedpics"src="Ayushart/20230728_145518.jpg">
+   <img class="animatedpics"src="Ayushart/20230729_115159.jpg">
+   <img class="animatedpics"src="Ayushart/20230731_111205.jpg">
+   <img class="animatedpics"src="Ayushart/20230801_163153.jpg">
+   <img class="animatedpics"src="Ayushart/20230804_102721.jpg">
+   <img class="animatedpics"src="Ayushart/20230808_190246.jpg">
+   <img class="animatedpics"src="Ayushart/20230808_190559.jpg">
+   <img class="animatedpics"src="Ayushart/20230808_191116.jpg">
+   <img class="animatedpics"src="Ayushart/20230808_191200.jpg">
+   <img class="animatedpics"src="Ayushart/20230808_191231.jpg">
+   <img class="animatedpics"src="Ayushart/20230808_191243.jpg">
+   <img class="animatedpics"src="Ayushart/20230808_191257.jpg">
+   <img class="animatedpics"src="Ayushart/20230808_192116.jpg">
+   <img class="animatedpics"src="Ayushart/20230808_192309.jpg">
+   <img class="animatedpics"src="Ayushart/20230808_192259.jpg">
+   <img class="animatedpics"src="Ayushart/20230818_153359.jpg">
+   <img class="animatedpics"src="Ayushart/20230819_090419.jpg">
+   <img class="animatedpics"src="Ayushart/20230820_125127.jpg">
+   <img class="animatedpics"src="Ayushart/20230821_131344.jpg">
+   <img class="animatedpics"src="Ayushart/20230822_161826.jpg">
+   <img class="animatedpics"src="Ayushart/20230822_161846.jpg">
+   <img class="animatedpics"src="Ayushart/20230822_161955.jpg">
+   <img class="animatedpics"src="Ayushart/20230825_102458.jpg">
+   <img class="animatedpics"src="Ayushart/20230824_162739.jpg">
+   <img class="animatedpics" src="Ayushart/Screenshot_20230908_084212_Instagram.jpg">
+    <img class="animatedpics" src="Ayushart/Screenshot_20230908_084230_Instagram.jpg">
+    <img class="animatedpics" src="Ayushart/Screenshot_20230908_084300_Instagram.jpg">
+    <img class="animatedpics" src="Ayushart/Screenshot_20230908_084316_Instagram.jpg">
+</div>
+</div>
+</div>
+  
+<!--Projects-->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br id="projectbreak">
+    <div id="projects" style="position:relative; left:40%; top: 20vh;">
+      <div style="position: relative;" >
+<!--header-->
+      <h4 id="scottsheader" class="curvedtext">Scotts Sick and Show Campaign</h4>
+<!--scotts paragraph-->
+      <p style="width: 60%;">As a custom artist, Ayush has been working with Scotts Miracle Grow on a yearly basis to create a shoe that would not only help the company reach marketing goals, but also increase customer interaction. The custom grass stained shoes are made using leather paint and go to the raffle winner of the Sick and Show campaign.</p>
+      </div>
+  <div style="position: relative; right:2%;" >
+    <img class="curved" id="scotts" src="Ayushart/Screenshot_20230908_084212_Instagram.jpg">
+  </div>
+</div>
+
+  
+<!--Awards-->
+    <br>
+    <div id="awards" style="position: relative; left: 40%; top:30vh;">
+    <br>
+    <br id="awardsbreak">
+<!--header-->
+    <h3 class="awardheaders curvedtext">2021 Nova X Network Visual Arts Contest</h3>
+<!--List-->
+    <ul>
+      <li>1st place recipient</li>
+    </ul>
+    <h3 class="awardheaders curvedtext">2021 VAM Still Life Visual Arts Contest</h3>
+  <ul>
+    <li>Peoples choice recipient</li>
+  </ul>
+  <h3 class="awardheaders curvedtext">2021 APW Character Design Contest</h3>
+  <ul>
+    <li>4th place recipient</li>
+    <li><a href="https://www.animationportfolioworkshop.com/2019-contest-winners/">Contest website</a></li>
+  </ul>
+</div>
+
+  
+
+    <br>
+    <br>
+    <br>
+    <br>
+<!--Contact-->
+    <div id="contact">
+    <!--picture and social box-->
+      <div style="position: relative; left: 80%; top: 10%; width: 70%; height: 70%;">
+       <img class="curved" id="awardsimage"
+src="Ayushart/20230822_093739.jpg"
+            width="350" height="450" alt="20230822_093739" /></a>
+        <div>
+          <br>
+          <div style="display: block;">
+            <div style="display: inline-block;"><img style="width: 30px; height: 30px;"
+                src="https://cdn-icons-png.flaticon.com/512/87/87390.png"></div>
+            <div style="display: inline-block;">
+              <p>&nbsp;&nbsp;INSTAGRAM</p>
+            </div>
+          </div>
+          <br>
+          <div style="display: block;">
+            <div style="display: inline-block;"><img style="width: 30px; height: 30px;"
+                src="https://img.icons8.com/ios/500w/paint-brush.png"></div>
+            <div style="display: inline-block;">
+              <p>&nbsp;&nbsp;AG CUSTOMS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!--form-->
+    <div>
+        <form onsubmit="return false"  style="width:250px; height:100px;">
+          <div>
+            <h1 class="curvedtext">Get In Touch!</h1>
+            <p>Feel free to contact Ayush about any inquiries you may have. If you are contacting to purchase artwork or
+              custom art, please leave a message here or through Ayush’s Custom art website.</p>
+          </div>
+
+          <div class="mb-3" style="display: grid; grid-template-columns: 45% 45%; column-gap: 15px;">
+            <div>
+              <label for="FirstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="FirstName" name="firstname">
+            </div>
+            <div style="display: block;">
+              <label for="LastName" class="form-label">Last Name</label>
+              <input type="text" class="input-lg form-control " id="LastName" name="lastname">
+            </div>
+          </div>
+        <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="Email" name="email">
+            
+          </div>
+          <div class="mb-3">
+            <label for="Description" class="form-label" >Description</label>
+            <input class="form-control" id="Description"name="description">
+          </div>
+          <button onclick="encryptMsg()" id="submit"type="submit" class="btn btn-primary" name="submit" value ="submit">Submit</button>
+        </form>    
+        <div>
+      </div>
+    </div>
+  </div>
+  <br id="contactbreak">
+
+
+
+  
+
+<!--scripts-->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  
+    <script>
+//onclick animation
+function animatedgallery() {
+  
+  $("#img1").fadeOut(500);
+  setTimeout(function() {$("#img2").fadeOut(500);},200)
+  setTimeout(function() {$("#img3").fadeOut(500);},400)
+  setTimeout(function() {showhide()},600)
+
+}
+      
+//show animated gallery
+function showhide() {
+  $("#animatedpictures").fadeIn(2000);
+  
+}
+
+
+let img1 = document.getElementById("img1");
+let img2 = document.getElementById("img2");
+let img3 = document.getElementById("img3");
+
+const imglist = ["20230822_162011","20230822_162031","20230822_162044","20230726_125421","20230728_145518","20230729_115159","20230730_185924","20230731_111205","20230801_163153","20230802_110259","20230803_082410","20230804_102721","20230805_094310","20230806_104232","20230807_111808","20230808_190246","20230808_190559","20230808_191100","20230808_191116","20230808_191200","20230808_191219","20230808_191231","20230808_191243","20230808_191257","20230808_192116","20230808_192309","20230808_192259","20230808_192318","20230818_153359","20230819_090419","20230820_125127","20230821_131344","20230822_161826","20230822_161846","20230822_161923","20230822_161955","20230823_125256","20230824_162739","20230825_102458"];
+
+
+let i = 0;
+let j = 1;
+let k = 2;
+
+//click on first image to change image
+//clickable images function 
+function leftrotate() {
+    img1.addEventListener("load", myFunction);
+    if (i == 0) {
+      i = imglist.length - 1;
+      j--;
+      k--;
+    }
+
+    else if (j == 0) {
+      j = imglist.length - 1;
+      i--;
+      k--;
+    }
+
+    else if (k == 0) {
+      k = imglist.length - 1;
+      i--;
+      j--;
+    }
+
+    else {
+      i--;
+      j--;
+      k--;  
+    }
+  
+    //Since a new image is coming into img1, It takes longer for the program to load it from the file folder structure, which causes a delay in the load, the function below eliminates this problem.
+  
+    img1.src = "Ayushart/" + imglist[i] + ".jpg";
+    function myFunction() {
+    img2.src = "Ayushart/" + imglist[j] + ".jpg";
+    img3.src = "Ayushart/" + imglist[k] + ".jpg";}
+}
+
+let inputs = [];
+
+//encryption
+function encryptMsg() {
+   let firstname = document.getElementById("FirstName").value;
+  let lastname = document.getElementById("LastName").value;
+  let email = document.getElementById("Email").value;
+  let description = document.getElementById("Description").value;
+
+  let str = firstname + "," + lastname + "," + email + "," + description;
+
+  let shift = Math.floor(Math.random() * 10);
+   let encryptedStr = ' ';
+    
+   for (let i = 0; i < str.length; i++) {
+      let charCode = str.charCodeAt(i);
+       
+      if (charCode >= 65 && charCode <= 90) {
+         // uppercase letters
+         encryptedStr += String.fromCharCode((charCode - 65 + shift) % 26 + 65);
+      } else if (charCode >= 97 && charCode <= 122) {
+         // lowercase letters
+         encryptedStr += String.fromCharCode((charCode - 97 + shift) % 26 + 97);
+      } else {
+         // non-alphabetic characters
+         encryptedStr += str.charAt(i);
+      }
+
+      inputs.push(encryptedStr)
+    }
+   }
+</script>
+    
+</body>
+
+</html>
